@@ -1,3 +1,2 @@
 #!/bin/bash
-u="$(id -u -n)"
-echo "hello $u"
+echo hello "$(id -u -n)"
